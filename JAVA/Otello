@@ -1,0 +1,33 @@
+
+
+
+//
+======VERIFICAR CASILLAS VALIDAS=========
+
+ _____________while___________
+si es turno verde, realiza el proceso de verificacion hasta que se cambie turno y viceversa
+
+__________________________________
+todas las casillas validas se cambian a blanco
+fijar booleano validmove en false
+cada vez que encuentre casillas validas cambia a true
+Si no hay validas lanza un dialogo y cambia de turno
+  - recorrer matriz;
+ for para recorrerla entera
+- un elseif para cada direccion sabiendo si puede moverse en esa direccion
+ - si encuentra una casilla blanca, sigue sin hacer nada
+ - Si encuentra una casilla igual """""
+  -si encuentra color contrario:
+     -----(for)recorre toda la direccion en que lo encontro hasta terminar la matriz o encontrar una del mismo color
+			si encuentra mismo color. Marca la casilla verificada como valida
+                           Si no, continua reccoriendo
+
+===========================================
+
+============PARA CADA ACTIONPERFORMED===========
+
+1. Verificar si es valida. Si lo es, continua al paso 2, si no, no hace nada
+
+2. Como el programa ya sabe que se puede cambiar de color, recorre en la direccion donde encuentre el color contrario y rellena hasta llegar al propio
+
+3. cambiar de turno y repetir la verificacion de validas//
